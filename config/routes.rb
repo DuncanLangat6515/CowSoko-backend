@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :cows 
   
   resources :users, only: [:index, :create, :show]
   
