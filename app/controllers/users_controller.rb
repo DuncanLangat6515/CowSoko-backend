@@ -1,7 +1,4 @@
 class UsersController < ApplicationController
-    # skip_before_action :verify_authenticity_token 
-    # before_action :authorize, only: [:show]
-  
     def create
       user = User.create!(user_params)
       session[:user_id] = user.id
@@ -19,7 +16,8 @@ class UsersController < ApplicationController
     private
   
     def user_params
-      params.permit(:username, :email, :password, :password_confirmation)
+      params.permit(:username, :password, :password_confirmation)
     end
   
   end
+
