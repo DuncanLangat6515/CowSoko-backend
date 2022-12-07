@@ -8,25 +8,62 @@
 
 User.create([
 { username: "Duncan",
-    email: "dancherry98@gmail.com",
     password: "111111"
 
 },
 
 { username: "Peter",
-    email: "gaggagg98@gmail.com",
     password: "662363636"
 
 },
 
 { username: "Enock",
-  email: "dhahagg@gmail.com",
   password: "6463636"
 
 },
 { username: "Daah",
-email: "vvvavav@gmail.com",
 password: "5335355"
 
 }
+])
+
+
+Cow.create!([
+  {
+    name: 'Hallikar',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/hallikar1.png',
+    price: 70000 
+  },
+  {
+    name: 'Jersey',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/jersey2.png',
+    price: 150000
+  },
+  {
+    name: 'Holstein Friesian',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/holstien%20friesian2.png',
+    price: 160000
+  },
+  {
+    name: 'Brown Swiss',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/brown%20swiss1.png',
+    price: 130000
+  },
+  {
+    name: 'Ayrshire',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/brown%20swiss1.png',
+    price: 170000
+  },
+  {
+    name: 'Toda',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/toda1.png',
+    price: 60000
+  },
+  {
+    name: 'Mehsana',
+    image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/mehsana.png',
+    price: 70000
+  },
+  
+
 ])
