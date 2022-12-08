@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-User.create([
+User.create!([
 { username: "Duncan",
     password: "111111"
 
@@ -28,7 +28,7 @@ password: "5335355"
 ])
 
 
-Cow.create!([
+Cow.create([
   {
     name: 'Hallikar',
     image: 'https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Images/Content%20photos/hallikar1.png',
