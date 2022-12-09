@@ -1,25 +1,29 @@
-# README
+#### CowSoko-Backend
+##### By DuncanLangat6515
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Table of Content
++ [Description](#Description)
++ [Licence](#Licence)
++ [Authors-Info](#Authors-Info)
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Description 
+<p>This is the backend where I used ruby on rails to get my data and also to post my data here</p>
 
-* Configuration
 
-* Database creation
+### Link FrontEnd  https://cow-soko-production.up.railway.app/cows
 
-* Database initialization
+## Licence
+MIT License
 
-* How to run the test suite
+Copyright (c) [2019] [DuncanLangat6515]
 
-* Services (job queues, cache servers, search engines, etc.)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* Deployment instructions
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Softw
 
-* ...
-# CowSoko-backend
+[Go back to the top](#### CowSoko-Backend)
+
+## Authors-Info
+Name[DuncanLangat6515]
